@@ -27,5 +27,3 @@ after-install::
 after-clean::
 	rm -f *.deb
 
-SUBPROJECTS += AutomaPrefs
-include $(THEOS_MAKE_PATH)/aggregate.mk
